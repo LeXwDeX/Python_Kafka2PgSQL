@@ -1,0 +1,4 @@
+confluent_kafka
+psycopg2>=2.9.6
+pydantic==2.1.1
+requests>=2.31.0

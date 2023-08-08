@@ -1,0 +1,23 @@
+{
+  "db_config": {
+    "host": "192.168.50.101",
+    "port": 5432,
+    "user": "admin",
+    "password": "admin",
+    "dbname": "postgres",
+    "minconn": 8,
+    "maxconn": 16
+  },
+  "table_config": {
+    "schema": "public",
+    "table_name": "top_up"
+  },
+  "kafka_config": {
+    "bootstrap.servers": "192.168.50.101:9092"
+  },
+  "dingtalk_config": {
+    "url": "https://oapi.dingtalk.com/robot/send",
+    "access_token": "xxx",
+    "token": "xxxx"
+  }
+}
